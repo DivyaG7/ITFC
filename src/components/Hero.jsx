@@ -16,15 +16,18 @@ const Hero = () => {
 
       {/* Content */}
       <div className="relative max-w-7xl mx-auto px-6 mt-3 w-full flex">
-        <div className="backdrop-blur-md border border-white/20 rounded-2xl p-6 md:p-8 max-w-3xl">
+        <div className="backdrop-blur-md border border-white/20 rounded-2xl p-6 md:p-8 max-w-4xl">
 
           <p className="text-xs md:text-sm tracking-widest text-gray-300 mb-3">
             WELCOME TO INDIAN TUBES & FITTINGS COMPANY
           </p>
 
           <h1 className="text-3xl sm:text-4xl md:text-6xl font-semibold leading-tight mb-6">
-            TRUSTED PARTNER IN THE INDIAN INDUSTRIAL SECTOR
+            TRUSTED INDUSTRIAL PIPES, FITTINGS & VALVES SUPPLIER IN INDIA
           </h1>
+
+          <p className="mb-4">Your reliable partner in delivering high-quality industrial piping solutions for diverse industries.</p>
+
 
           <a href="#about">
             <button className="bg-red-500 hover:bg-red-600 transition px-6 py-3 rounded-lg text-sm md:text-base">

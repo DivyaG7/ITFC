@@ -7,19 +7,19 @@ import img6 from "../assets/service6.png"
 
 const Services = () => {
     const services = [
-        { id: "01", title: "Mechanical Engineer", desc: "Precision-engineered steel tubes and pipes suitable for industrial, structural, and commercial applications.", img: img1 },
-        { id: "02", title: "Quality Control Inspector", desc: "Every product undergoes strict quality checks to ensure durability, strength, and compliance.", img: img2 },
-        { id: "03", title: "Project Manager", desc: "Tailor-made tube and fitting solutions designed as per client drawings and specifications.", img: img3 },
-        { id: "04", title: "Welder - Experienced", desc: "Experienced welding professionals ensure clean joints, smooth finishes, and superior strength.", img: img4 },
-        { id: "05", title: "Health and Safety Specialist", desc: "Safe manufacturing practices with adherence to industry safety and quality norms.", img: img5 },
-        { id: "06", title: "Electrical Technician", desc: "Expert technical assistance from design consultation to final product delivery.", img: img6 }
+        { id: "01", title: "Industrial Pipes & Tubes", desc: "We supply and stock a wide range of industrial pipes and tubes from leading brands, ensuring quality, durability, and ready availability.", img: img1 },
+        { id: "02", title: "Pipe Fittings & Flanges", desc: "High-quality pipe fittings, flanges, elbows, tees, and reducers designed for secure, leak-proof connections.", img: img2 },
+        { id: "03", title: "Industrial Valves", desc: "Durable and efficient industrial valves for reliable flow control across various applications.", img: img3 },
+        { id: "04", title: "Custom Fabrication", desc: "Precision fabrication of piping components tailored to project-specific requirements.", img: img4 },
+        { id: "05", title: "Pipe Supports & Accessories", desc: "Complete range of pipe supports, gaskets, fasteners, bolts, and nuts for full system support.", img: img5 },
+        { id: "06", title: "Installation & Technical Support", desc: "Expert installation, maintenance, and technical consultation to ensure smooth and efficient operations.", img: img6 }
     ];
     return (
         <div className="max-w-7xl mx-auto px-6 py-16" id="services">
 
             {/* TITLE */}
-            <h2 className="text-center text-3xl md:text-5xl text-[#0E2A47] font-bold mb-10">
-                <span className="text-red-500">Manufacturing</span> Services
+            <h2 className="text-center text-3xl md:text-5xl text-[#0E2A47] font-bold mb-10">Our Core
+                <span className="text-red-500"> Industrial Piping Services</span>
             </h2>
 
             {/* GRID */}

@@ -9,19 +9,14 @@ import img6 from "../assets/industry6.png"
 const Industries = () => {
     const industries = [
         {
-            title: "Construction & Infrastructure",
+            title: "Construction & Infrastructure ",
             img: img1,
             desc: "We provide durable solutions for large-scale infrastructure."
         },
         {
-            title: "Engineering & Fabrication",
+            title: "Manufacturing & Engineering ",
             img: img2,
             desc: "Precision fabrication services for industrial needs."
-        },
-        {
-            title: "Power & Energy",
-            img: img3,
-            desc: "Supporting renewable and traditional energy sectors."
         },
         {
             title: "Oil & Gas",
@@ -29,15 +24,15 @@ const Industries = () => {
             desc: "Reliable components for oil and gas industries."
         },
         {
-            title: "Automotive",
+            title: "Power & Energy",
+            img: img3,
+            desc: "Supporting renewable and traditional energy sectors."
+        },
+        {
+            title: "Water Treatment & Utilities ",
             img: img5,
             desc: "High-quality manufacturing for automotive sector."
         },
-        {
-            title: "Industrial Machinery",
-            img: img6,
-            desc: "Advanced machinery parts with precision engineering."
-        }
     ];
     return (
         <div id="products"
@@ -52,7 +47,7 @@ const Industries = () => {
                 </h2>
 
                 {/* CARDS */}
-                <div className="flex gap-6 items-end justify-center flex-wrap">
+                <div className="flex gap-10 items-end justify-center flex-wrap">
 
                     {industries.map((item, index) => {
 

@@ -60,10 +60,11 @@ const FeatureSection = () => {
 
                     {/* RIGHT TEXT */}
                     <div className="text-sm text-gray-300">
-                        We provide a wide range of services tailored to meet the unique needs of
-                        modern industries. From precision manufacturing and advanced
-                        automation to custom product design and efficient logistics.
+                        <p className="mb-3">At Indian Tubes & Fittings Co., we deliver high-quality industrial pipes, fittings, and valves backed by decades of industry experience. Our commitment to precision, quality manufacturing, and certified standards ensures that every product meets the highest level of reliability and performance.</p>
+
+                        <p>offer a wide range of industrial piping solutions, supported by strong sourcing capabilities and a well-established supply network, ensuring timely delivery and consistent product availability.</p>
                     </div>
+
 
                 </div>
             </div>

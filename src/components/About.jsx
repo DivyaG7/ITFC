@@ -30,11 +30,15 @@ const About = () => {
 
             <div className="relative">
               <h3 className="text-xl md:text-3xl font-bold mb-3 text-[#0E2A47]">
-                Your Trusted Industrial Manufacturing Partner
+                Your Trusted Industrial Piping Partner
               </h3>
 
               <p className="text-gray-400 mb-4 text-sm">
-                Although we pride ourselves as machining specialists who are exceptional with machining all types of plastics and metals like Delrin, Polycarbonate, Polypropylene, aluminum, steel and stainless
+                At Indian Tubes & Fittings Co., we specialize in delivering high-quality industrial pipes, fittings, and valves designed to meet the demands of modern industries. With a strong focus on precision, durability, and performance, our solutions are trusted across sectors such as construction, manufacturing, and infrastructure.
+              </p>
+
+              <p className="text-gray-400 mb-4 text-sm">
+                Our expertise, combined with a commitment to quality and industry standards, ensures that every product we deliver contributes to safe, efficient, and long-lasting operations.
               </p>
 
               <div className="flex gap-3">
@@ -59,26 +63,32 @@ const About = () => {
           {/* TOP TEXT */}
           <div>
             <h2 className="text-3xl text-[#0E2A47] md:text-4xl font-bold mb-4">
-              Engineering Strength. Delivering Reliability from the{" "}
+              Engineering Strength. Delivering Reliable {" "}
               <span className="text-red-500 md:text-5xl">
-                Indian Tubes & Fittings
+                Industrial Pipes, Fittings & Valves{" "}
               </span>
+              Across India
             </h2>
 
             <p className="text-gray-500 mb-6">
-              Our manufacturing facility is equipped with advanced machinery and modern production processes to ensure dimensional accuracy, high strength, and long service life. Every product is manufactured in compliance with industry standards and tested for performance before delivery.
+              At Indian Tubes & Fittings Co., we deliver high-performance industrial piping solutions built for durability, safety, and efficiency. With decades of expertise, we ensure every product meets the highest quality standards for demanding industrial applications.
             </p>
 
             {/* STATS */}
-            <div className="flex gap-[120px]">
+            <div className="flex gap-[80px]">
               <div>
-                <h3 className="text-3xl md:text-6xl font-bold text-red-500">5+</h3>
+                <h3 className="text-3xl md:text-6xl font-bold text-red-500">6+</h3>
                 <p className="text-sm text-gray-500">Years of Experience</p>
               </div>
 
               <div>
                 <h3 className="text-3xl md:text-6xl font-bold text-red-500">500+</h3>
-                <p className="text-sm text-gray-500">Completed Projects</p>
+                <p className="text-sm text-gray-500">Successfully Delivered Projects</p>
+              </div>
+
+              <div>
+                <h3 className="text-3xl md:text-6xl font-bold text-red-500">20+</h3>
+                <p className="text-sm text-gray-500">Satisfied city Clients </p>
               </div>
             </div>
           </div>
