@@ -39,7 +39,7 @@ const AboutPage = () => {
           About Us
         </button> */}
 
-                            <Link to="/conatct">
+                            <Link to="/contact">
                                 <button className="bg-[#0f2a44] text-white px-5 py-2 rounded-lg text-sm hover:bg-[#123a5c] transition">
                                     Email Us
                                 </button>
