@@ -84,12 +84,12 @@ const Navbar = () => {
         {/* Menu */}
         <div className="p-4 space-y-4 overflow-y-auto">
           <Link onClick={handleClose} to="/" className="block hover:text-red-400">Home</Link>
-          <Link onClick={handleClose} href="/products" className="block hover:text-red-400">Products</Link>
-          <Link onClick={handleClose} href="/services" className="block hover:text-red-400">Services</Link>
-          <Link onClick={handleClose} href="/about" className="block hover:text-red-400">About</Link>
-          <Link onClick={handleClose} href="/contact" className="block hover:text-red-400">Contact</Link>
+          <Link onClick={handleClose} to="/products" className="block hover:text-red-400">Products</Link>
+          <Link onClick={handleClose} to="/services" className="block hover:text-red-400">Services</Link>
+          <Link onClick={handleClose} to="/about" className="block hover:text-red-400">About</Link>
+          <Link onClick={handleClose} to="/contact" className="block hover:text-red-400">Contact</Link>
 
-          <Link href="/#quote" className="hover:text-red-400">
+          <Link to="/#quote" className="hover:text-red-400">
             <button
               onClick={handleClose}
               className="bg-white text-red-500 px-4 py-2 rounded-lg w-full mt-4"
