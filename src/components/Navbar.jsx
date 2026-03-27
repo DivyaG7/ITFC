@@ -89,14 +89,14 @@ const Navbar = () => {
           <Link onClick={handleClose} to="/about" className="block hover:text-red-400">About</Link>
           <Link onClick={handleClose} to="/contact" className="block hover:text-red-400">Contact</Link>
 
-          <Link to="/#quote" className="hover:text-red-400">
+          <HashLink smooth to="/#quote" className="hover:text-red-400">
             <button
               onClick={handleClose}
               className="bg-white text-red-500 px-4 py-2 rounded-lg w-full mt-4"
             >
               Request a Quote
             </button>
-          </Link>
+          </HashLink>
         </div>
       </div>
     </div>
