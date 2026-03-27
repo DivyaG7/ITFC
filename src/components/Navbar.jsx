@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from "react";
 import logo from "../assets/logo.png";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
 
-  // 🔒 Disable background scroll
+  // Disable background scroll
   useEffect(() => {
     document.body.style.overflow = open ? "hidden" : "auto";
   }, [open]);
@@ -17,13 +18,13 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
 
         {/* Logo */}
-        <a href="/">
+        <Link to="/">
           <img
             src={logo}
             alt="ITFC Logo"
             className="h-10 md:h-12 object-contain"
           />
-        </a>
+        </Link>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex text-white items-center gap-6 bg-white/10 backdrop-blur-md px-6 py-2 rounded-2xl border border-white/20">
@@ -45,11 +46,11 @@ const Navbar = () => {
           <Link to="/about" className="hover:text-red-400">About us</Link>
           <Link to="/contact" className="hover:text-red-400">Contact</Link>
 
-          <a href="#quote" className="hover:text-red-400">
+          <HashLink smooth to="/#quote" className="hover:text-red-400">
             <button className="bg-white px-4 py-2 rounded-lg text-red-500">
               Request a Quote
             </button>
-          </a>
+          </HashLink>
         </div>
 
         {/* Mobile Hamburger */}
@@ -61,7 +62,7 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* 🔥 Overlay */}
+      {/* Overlay */}
       {open && (
         <div
           className="fixed inset-0 bg-black/50 z-40"
@@ -82,18 +83,20 @@ const Navbar = () => {
 
         {/* Menu */}
         <div className="p-4 space-y-4 overflow-y-auto">
-          <a onClick={handleClose} href="#" className="block hover:text-red-400">Home</a>
-          <a onClick={handleClose} href="#" className="block hover:text-red-400">Products</a>
-          <a onClick={handleClose} href="#" className="block hover:text-red-400">Services</a>
-          <a onClick={handleClose} href="#" className="block hover:text-red-400">About</a>
-          <a onClick={handleClose} href="#" className="block hover:text-red-400">Contact</a>
+          <Link onClick={handleClose} to="/" className="block hover:text-red-400">Home</Link>
+          <Link onClick={handleClose} href="/products" className="block hover:text-red-400">Products</Link>
+          <Link onClick={handleClose} href="/services" className="block hover:text-red-400">Services</Link>
+          <Link onClick={handleClose} href="/about" className="block hover:text-red-400">About</Link>
+          <Link onClick={handleClose} href="/contact" className="block hover:text-red-400">Contact</Link>
 
-          <button
-            onClick={handleClose}
-            className="bg-white text-red-500 px-4 py-2 rounded-lg w-full mt-4"
-          >
-            Request a Quote
-          </button>
+          <Link href="/#quote" className="hover:text-red-400">
+            <button
+              onClick={handleClose}
+              className="bg-white text-red-500 px-4 py-2 rounded-lg w-full mt-4"
+            >
+              Request a Quote
+            </button>
+          </Link>
         </div>
       </div>
     </div>
