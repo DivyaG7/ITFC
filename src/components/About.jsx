@@ -2,6 +2,7 @@ import React from "react";
 import img1 from "../assets/about1.png";
 import img2 from "../assets/about2.png";
 import bg from "../assets/aboutbg.png";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -42,15 +43,17 @@ const About = () => {
               </p>
 
               <div className="flex gap-3">
-                <button className="bg-red-500 px-4 py-2 rounded-lg text-sm">
-                  About Us
-                </button>
+                <Link to="/about">
+                  <button className="bg-red-500 px-4 py-2 rounded-lg text-sm">
+                    About Us
+                  </button>
+                </Link>
 
-                <a href="#quote">
+                <Link to="/#quote">
                   <button className="border border-red-300 px-4 py-2 rounded-lg text-sm text-red-400">
                     Email us now!
                   </button>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -75,7 +78,7 @@ const About = () => {
             </p>
 
             {/* STATS */}
-            <div className="flex gap-[80px]">
+            <div className="xm:flex-col md:flex gap-[80px]">
               <div>
                 <h3 className="text-3xl md:text-6xl font-bold text-red-500">6+</h3>
                 <p className="text-sm text-gray-500">Years of Experience</p>
@@ -94,7 +97,7 @@ const About = () => {
           </div>
 
           {/* BOTTOM IMAGE */}
-          <img src={img2} className="rounded-2xl w-[450px] h-[600px] object-cover" />
+          <img src={img2} className="rounded-2xl w-[450px] md:h-[600px] h-[400px] object-cover" />
 
         </div>
 

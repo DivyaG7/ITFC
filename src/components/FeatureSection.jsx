@@ -35,7 +35,7 @@ const FeatureSection = () => {
 
             {/* 🔥 BACKGROUND SECTION */}
             <div
-                className="h-[400px] flex items-center"
+                className="md:h-[400px] h-[650px] flex items-center"
                 style={{
                     backgroundImage: `url(${bg})`,
                     backgroundSize: "cover",
