@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import logo from "../assets/logo.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -27,7 +28,7 @@ const Navbar = () => {
         {/* Desktop Menu */}
         <div className="hidden md:flex text-white items-center gap-6 bg-white/10 backdrop-blur-md px-6 py-2 rounded-2xl border border-white/20">
 
-          <a href="#home" className="hover:text-red-400">Home</a>
+          <Link to="/" className="hover:text-red-400">Home</Link>
 
           {/* Dropdown */}
           {/* <div className="relative group">
@@ -38,11 +39,11 @@ const Navbar = () => {
             </div>
           </div> */}
 
-          <a href="#products" className="hover:text-red-400">Products</a>
+          <Link to="/products" className="hover:text-red-400">Products</Link>
 
-          <a href="#services" className="hover:text-red-400">Services</a>
-          <a href="#about" className="hover:text-red-400">About us</a>
-          <a href="#contact" className="hover:text-red-400">Contact</a>
+          <Link to="/services" className="hover:text-red-400">Services</Link>
+          <Link to="/about" className="hover:text-red-400">About us</Link>
+          <Link to="/contact" className="hover:text-red-400">Contact</Link>
 
           <a href="#quote" className="hover:text-red-400">
             <button className="bg-white px-4 py-2 rounded-lg text-red-500">
