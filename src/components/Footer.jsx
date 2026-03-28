@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom";
+
 function Footer() {
   return (
     <div id="contact" className="bg-[#0f2a44] text-white p-6 overflow-hidden flex flex-col justify-center items-center">
 
-      {/* 🔥 Scrolling Big Text */}
+      {/* Scrolling Big Text */}
       <div className="whitespace-nowrap overflow-hidden border-b border-gray-600 pb-4 mb-8">
         <div className="animate-marquee inline-block text-4xl md:text-6xl font-bold">
           Trusted Partner in the <span className="text-red-500">Indian Tubes & Fittings</span>
@@ -13,18 +15,18 @@ function Footer() {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 px-6 text-sm">
         <div className="flex flex-col gap-3">
           <h4 className="font-semibold mb-2 text-xl">Quick Links</h4>
-          <a href="#products">
+          <Link to="/products">
             <p>Products</p>
-          </a>
-          <a href="#services">
+          </Link>
+          <Link to="/services">
             <p>Services</p>
-          </a>
-          <a href="#about">
+          </Link>
+          <Link href="/about">
             <p>About Us</p>
-          </a>
-          <a href="#quote">
+          </Link>
+          <Link href="/contact">
             <p>Contact</p>
-          </a>
+          </Link>
         </div>
 
         <div className="flex flex-col gap-3">
@@ -47,9 +49,9 @@ function Footer() {
           <h4 className="font-semibold mb-2 text-xl">Contact</h4>
           <p>Indian Tubes and Fittings Company</p>
           <p>📍 Chennai, India</p>
-          <p>📞Phone: +91 XXXXX XXXXX</p>
+          <p>📞Phone: +91 8056190156</p>
           <p>📧Email: info@indiantubesandfittings.com</p>
-          <p>Mon-Sun: 10:00 AM – 11:00 PM</p>
+          <p>Mon-Sat: 10:00 AM – 08:00 PM</p>
         </div>
       </div>
 

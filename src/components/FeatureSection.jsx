@@ -33,7 +33,7 @@ const FeatureSection = () => {
     return (
         <div className="relative">
 
-            {/* 🔥 BACKGROUND SECTION */}
+            {/* BACKGROUND SECTION */}
             <div
                 className="md:h-[400px] h-[650px] flex items-center"
                 style={{
@@ -69,7 +69,7 @@ const FeatureSection = () => {
                 </div>
             </div>
 
-            {/* 🔥 FLOATING CARD */}
+            {/* FLOATING CARD */}
             <div className="max-w-6xl mx-auto px-6">
                 <div className="bg-white rounded-3xl shadow-xl p-6 grid grid-cols-2 md:grid-cols-4 gap-6 -mt-16 relative z-10">
 
@@ -86,11 +86,11 @@ const FeatureSection = () => {
                                 </p>
 
                                 {/* BUTTON */}
-                                <a href={item.link}>
-                                    <button className="bg-[#0E2A47] text-white px-3 py-1 rounded-md hover:scale-105 transition">
+                                {/* <a href={item.link}> */}
+                                    <button className="bg-[#0E2A47] cursor-text text-white px-3 py-1 rounded-md hover:scale-105 transition">
                                         →
                                     </button>
-                                </a>
+                                {/* </a> */}
                             </div>
 
                             {/* Divider */}

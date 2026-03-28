@@ -159,12 +159,13 @@ const Contact = () => {
                         </p>
 
                         <p className="text-sm mt-2">
-                            No. 123, Industrial Estate, Ambattur, Chennai, Tamil Nadu 600058, India
+                            PARRYS MANUFCATURING UNIT 456, Arul murugan nagar, Vichoor, Ponneri - 600103
+
                         </p>
 
-                        <p className="text-sm mt-1">📞 +91 XXXXX XXXXX</p>
+                        <p className="text-sm mt-1">📞 +91 8056190156</p>
                         <p className="text-sm">✉️ <span className="font-bold">Email:</span> info@indiantubesandfittings.com</p>
-                        <p className="text-sm">🕒 <span className="font-bold">Mon-Sun:</span> 10:00 AM - 11:00 PM</p>
+                        <p className="text-sm">🕒 <span className="font-bold">Mon-Sat:</span> 10:00 AM - 08:00 PM</p>
                     </div>
 
                     {/* Map */}
@@ -174,7 +175,7 @@ const Contact = () => {
                         </h2>
 
                         <iframe
-                            src="https://www.google.com/maps?q=chennai&output=embed"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.0274904931!2d80.2880935!3d13.0974443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526fb9dd026bd7%3A0x70172e12c759c291!2sINDIAN%20TUBES%20AND%20FITTINGS%20COMPANY!5e0!3m2!1sen!2sin!4v1774679035387!5m2!1sen!2sin"
                             className="w-full h-64 rounded"
                             loading="lazy"
                         ></iframe>

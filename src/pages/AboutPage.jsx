@@ -25,14 +25,17 @@ const AboutPage = () => {
                             Your Trusted Industrial Piping Partner
                         </h3>
 
-                        <p className="text-gray-600 text-sm mb-4 leading-relaxed">
-                            At Indian Tubes & Fittings Co., we specialize in delivering high-quality industrial pipes,
-                            fittings, and valves designed to meet the demands of modern industries.
+                        <p className="text-gray-600 text-sm mb-2 leading-relaxed">
+                            We are One of the Largest Stockists & Distributors for Industrial Pipes , Pipe Fittings, Flanges, Valves & Others,.
                         </p>
 
-                        <p className="text-gray-600 text-sm mb-6 leading-relaxed">
-                            Our expertise ensures precision, durability, and long-lasting performance across multiple sectors.
+                        <p className="text-gray-600 text-sm mb-2 leading-relaxed">
+                            We Stock and trade , 100+ Brands Such as Jindal , MSL , Audco , Leader, Zoloto , Prime , Flowjet , Kirloskar, L&T Valves , Kranti Water Meters, etc etc etc
                         </p>
+
+                        <p className="text-gray-600 text-sm mb-2 leading-relaxed">We have a policy of Transparent Competitive Pricing, Prompt Services , Timely Delivery and Pan India Service, We serve Mostly Customers having thier offices  , Factories & Project Sites , in the states of Tamilnadu , Andhra Pradesh , Telengana, Kerala & Karnataka, but also are able to support clients for thier Turnkey Requirements Pan India Basis , case to case.</p>
+
+                        <p className="text-gray-600 text-sm mb-2 leading-relaxed">Our Major Customers are Industries Like Sugar Mills, Paper Mills, Oil Processing Units , Petroleum Product Manufactuers, Furniture Manufacurers, Large PSU's Like Gail India ,indian Oil Corpn Ltd, Govt Undertakings Like NPCIL, Contqactors like Boiler erectors, Firefighting ,Air Conditioning & Turnkey Project Engineers.</p>
 
                         <div className="flex gap-3">
                             {/* <button className="bg-[#0f2a44] text-white px-5 py-2 rounded-lg text-sm hover:bg-[#123a5c] transition">

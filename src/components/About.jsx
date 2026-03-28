@@ -1,6 +1,6 @@
 import React from "react";
-import img1 from "../assets/about1.png";
-import img2 from "../assets/about2.png";
+import img1 from "../assets/about1.jpg";
+import img2 from "../assets/about2.jpg";
 import bg from "../assets/aboutbg.png";
 import { Link } from "react-router-dom";
 
@@ -97,7 +97,7 @@ const About = () => {
           </div>
 
           {/* BOTTOM IMAGE */}
-          <img src={img2} className="rounded-2xl w-[450px] md:h-[600px] h-[400px] object-cover" />
+          <img src={img2} className="rounded-2xl w-[450px] md:h-[500px] h-[400px] object-cover" />
 
         </div>
 

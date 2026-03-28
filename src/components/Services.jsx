@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import img1 from "../assets/service1.png"
 import img2 from "../assets/service2.png"
 import img3 from "../assets/service3.png"
@@ -46,9 +47,9 @@ const Services = () => {
                                 {item.desc}
                             </p>
 
-                            <button className="mt-3 text-red-500 hover:bg-red-500 hover:text-white border border-red-500 px-3 py-1 rounded-xl hover:bg-red-500 hover:text-white transition">
+                            {/* <button className="mt-3 text-red-500 hover:bg-red-500 hover:text-white border border-red-500 px-3 py-1 rounded-xl hover:bg-red-500 hover:text-white transition">
                                 Learn More
-                            </button>
+                            </button> */}
 
                         </div>
 
@@ -65,9 +66,11 @@ const Services = () => {
 
             {/* BUTTON */}
             <div className="text-center mt-10">
-                <button className="bg-red-500 text-white px-6 py-2 rounded-lg">
-                    View All Services
-                </button>
+                <Link to="/services">
+                    <button className="bg-red-500 text-white px-6 py-2 rounded-lg">
+                        View All Services
+                    </button>
+                </Link>
             </div>
 
         </div>
