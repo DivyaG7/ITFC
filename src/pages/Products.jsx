@@ -102,10 +102,10 @@ function Products() {
 
             {/* HEADER */}
             <div className="bg-[#0f2a44] text-white pt-28 md:pt-32 py-10 md:py-12 text-center px-4">
-                <h1 className="text-3xl font-bold">
+                <h1 className="text-5xl font-bold">
                     Industrial Product Catalog
                 </h1>
-                <p className="text-sm mt-2">
+                <p className="mt-2">
                     Explore our comprehensive range of high-quality piping and fittings
                 </p>
             </div>
