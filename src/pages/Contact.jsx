@@ -66,11 +66,12 @@ const Contact = () => {
                     src={bg}
                     alt="background-image"
                     className="w-full h-full object-cover"
+                    loading="lazy"
                 />
 
                 {/* Overlay */}
                 <div className="absolute inset-0 bg-black/60 flex flex-col items-center justify-center text-center px-4">
-                    <h1 className="text-white text-2xl md:text-4xl font-bold">
+                    <h1 className="text-white text-2xl md:text-5xl font-bold">
                         Contact Us & Request a Custom Quote
                     </h1>
                 </div>
@@ -82,7 +83,7 @@ const Contact = () => {
                 {/* LEFT - FORM */}
                 <form
                     onSubmit={handleSubmit}
-                    className="bg-white p-6 rounded-xl border border-white/20 shadow-lg"
+                    className="bg-[#0f2a44]/20 backdrop-blur-md p-6 rounded-xl border border-white/20 shadow-lg"
                 >
                     <h2 className="text-3xl font-semibold mb-4">
                         Request a Quote
@@ -93,7 +94,7 @@ const Contact = () => {
                         name="name"
                         value={form.name}
                         placeholder="Your name"
-                        className="w-full mb-3 p-2 rounded placeholder:text-black border border-black/20"
+                        className="w-full mb-3 p-2 rounded placeholder:text-black border border-black/20 shadow"
                         onChange={handleChange}
                     />
 
@@ -102,7 +103,7 @@ const Contact = () => {
                         name="email"
                         value={form.email}
                         placeholder="Your email"
-                        className="w-full mb-3 p-2 rounded placeholder:text-black border border-black/20"
+                        className="w-full mb-3 p-2 rounded placeholder:text-black border border-black/20 shadow"
                         onChange={handleChange}
                     />
 
@@ -111,7 +112,7 @@ const Contact = () => {
                         name="phone"
                         value={form.phone}
                         placeholder="Phone number"
-                        className="w-full mb-3 p-2 rounded placeholder:text-black border border-black/20"
+                        className="w-full mb-3 p-2 rounded placeholder:text-black border border-black/20 shadow"
                         onChange={handleChange}
                     />
 
@@ -120,7 +121,7 @@ const Contact = () => {
                         name="quantity"
                         value={form.quantity}
                         placeholder="Quantity"
-                        className="w-full mb-3 p-2 rounded placeholder:text-black border border-black/20"
+                        className="w-full mb-3 p-2 rounded placeholder:text-black border border-black/20 shadow"
                         onChange={handleChange}
                     />
 
@@ -128,14 +129,14 @@ const Contact = () => {
                         name="message"
                         value={form.message}
                         placeholder="Message"
-                        className="w-full mb-4 p-2 rounded placeholder:text-black border border-black/20"
+                        className="w-full mb-4 p-2 rounded placeholder:text-black border border-black/20 shadow"
                         rows="3"
                         onChange={handleChange}
                     />
 
                     <button
                         type="submit"
-                        className="w-full bg-black/10 border-black/20  text-[#0E2A47] py-2 rounded hover:bg-gray-200 transition"
+                        className="w-full bg-black/10 border border-black/20  text-[#0E2A47] py-2 rounded hover:bg-gray-200 transition"
                     >
                         Submit
                     </button>

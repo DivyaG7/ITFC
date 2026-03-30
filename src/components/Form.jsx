@@ -2,6 +2,7 @@ import axios from "axios";
 import { useState } from "react";
 import toast from "react-hot-toast";
 import formbg from "../assets/formbg.png";
+import { Link } from "react-router-dom";
 
 const Form = () => {
   const [form, setForm] = useState({
@@ -72,14 +73,14 @@ const Form = () => {
             Ready to Start Your  <br />  Industrial Piping Project?
           </h1>
           <p className="mt-5 text-gray-300">
-            Whether you require industrial pipes, fittings, valves, or customized piping solutions, Indian Tubes & Fittings Co. is here to support your project.
+            Whether you require industrial pipes, fittings, valves, or customized piping solutions, Indian Tubes & Fittings Co. is here to support your project, deliver high-quality products with timely service and reliable performance for all industrial needs.
           </p>
-          <p className="mt-2 text-gray-300">
-            deliver high-quality products with timely service and reliable performance for all industrial needs.
-          </p>
-          <p className="mt-2 text-gray-300">
-            <span className="font-bold">Contact us today</span> for a quick and accurate quotation.
-          </p>
+          
+          <Link to="/contact" onClick={() => window.scrollTo(0, 0)}>
+            <button className="bg-red-500 text-white px-6 py-2 mt-3 rounded-lg">
+              Contact us today
+            </button>
+          </Link>
         </div>
 
         {/* FORM */}
@@ -95,7 +96,7 @@ const Form = () => {
             <input
               type="text"
               name="name"
-              value={form.name}  
+              value={form.name}
               placeholder="Your name"
               className="w-full mb-3 p-2 rounded placeholder:text-white bg-white/10 border border-white/20"
               onChange={handleChange}
@@ -104,7 +105,7 @@ const Form = () => {
             <input
               type="email"
               name="email"
-              value={form.email}   
+              value={form.email}
               placeholder="Your email"
               className="w-full mb-3 p-2 rounded placeholder:text-white bg-white/10 border border-white/20"
               onChange={handleChange}

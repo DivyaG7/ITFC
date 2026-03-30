@@ -14,7 +14,7 @@ const About = () => {
 
           {/* TOP IMAGE */}
           <div className="relative">
-            <img src={img1} className="rounded-2xl" />
+            <img src={img1} className="rounded-2xl" loading="lazy" />
           </div>
 
           {/* BOTTOM TEXT WITH BG IMAGE */}
@@ -43,7 +43,7 @@ const About = () => {
               </p>
 
               <div className="flex gap-3">
-                <Link to="/about">
+                <Link to="/about" onClick={() => window.scrollTo(0, 0)}>
                   <button className="bg-red-500 px-4 py-2 rounded-lg text-sm">
                     About Us
                   </button>
@@ -97,7 +97,7 @@ const About = () => {
           </div>
 
           {/* BOTTOM IMAGE */}
-          <img src={img2} className="rounded-2xl w-[450px] md:h-[500px] h-[400px] object-cover" />
+          <img src={img2} className="rounded-2xl w-[450px] md:h-[500px] h-[400px] object-cover" loading="lazy" />
 
         </div>
 

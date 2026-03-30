@@ -57,6 +57,7 @@ const Services = () => {
                         <img
                             src={item.img}
                             className="w-32 h-32 mt-4 md:mt-0 lg:mt-0 md:w-48 md:h-60 object-cover rounded-2xl"
+                            loading="lazy"
                         />
 
                     </div>
@@ -66,7 +67,7 @@ const Services = () => {
 
             {/* BUTTON */}
             <div className="text-center mt-10">
-                <Link to="/services">
+                <Link to="/services" onClick={() => window.scrollTo(0, 0)}>
                     <button className="bg-red-500 text-white px-6 py-2 rounded-lg">
                         View All Services
                     </button>

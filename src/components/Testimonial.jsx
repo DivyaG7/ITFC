@@ -52,6 +52,7 @@ const Testimonial = () => {
                     src={testimonials[index].image}
                     alt=""
                     className="w-14 h-14 rounded-full mx-auto mb-3"
+                    loading="lazy"
                 />
 
                 <h4 className="font-semibold">{testimonials[index].name}</h4>
