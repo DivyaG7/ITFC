@@ -320,7 +320,7 @@ const productData = {
             name: "Screwed Y Strainer",
             img: "https://res.cloudinary.com/dlnjl246g/image/upload/v1774878738/screwed_y_strainer_gdhsjf_uqnaoi.jpg",
         },
-        
+
     ],
     "Valves": [
         {
@@ -526,7 +526,6 @@ const productData = {
             img: "https://res.cloudinary.com/dlnjl246g/image/upload/v1774882370/u_clamp_jh7gju.jpg",
         },
     ],
-
 };
 
 function Products() {
@@ -539,12 +538,17 @@ function Products() {
 
             {/* HEADER */}
             <div className="bg-[#0f2a44] text-white pt-28 md:pt-32 py-10 md:py-12 text-center px-4">
-                <h1 className="text-5xl font-bold">
+                <h1 className="text-3xl md:text-5xl font-bold">
                     Industrial Product Catalog
                 </h1>
                 <p className="mt-2">
                     Explore our comprehensive range of high-quality piping and fittings
                 </p>
+                {/* <a href="/" download>
+                    <button className="mt-4 bg-white text-black px-4 py-2 rounded text-sm">
+                        Download Datasheet
+                    </button>
+                </a> */}
             </div>
 
             <div className="flex flex-col lg:flex-row gap-6 mt-5 p-4 md:p-8">
